@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>com.github.jie65535.ClassicControllerInput</AssemblyName>
+    <AssemblyTitle>ClassicControllerInput</AssemblyTitle>
+    <Version>0.1.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="$(PEAKBepInExDir)/core/BepInEx.dll" Private="false" />
+    <Reference Include="$(PEAKBepInExDir)/core/0Harmony.dll" Private="false" />
+    <Reference Include="$(ManagedDir)/Assembly-CSharp.dll" Private="false" />
+    <Reference Include="$(ManagedDir)/PhotonUnityNetworking.dll" Private="false" />
+    <Reference Include="$(ManagedDir)/UnityEngine.dll" Private="false" />
+    <Reference Include="$(ManagedDir)/UnityEngine.CoreModule.dll" Private="false" />
+    <Reference Include="$(ManagedDir)/Zorro.ControllerSupport.dll" Private="false" />
+    <Reference Include="$(ManagedDir)/Zorro.Core.Runtime.dll" Private="false" />
+    <Reference Include="$(ManagedDir)/Zorro.Settings.Runtime.dll" Private="false" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+{
+  "name": "ClassicControllerInput",
+  "version_number": "0.1.0",
+  "website_url": "https://github.com/jie65535/ClassicControllerInput",
+  "description": "Adds a Classic option that restores climbing and sprinting controls from before PEAK 3.1.0. 本模组新增经典选项，可将攀爬和奔跑行为还原到3.1.0以前。",
+  "dependencies": [
+    "BepInEx-BepInExPack_PEAK-5.4.75301"
+  ]
+}
